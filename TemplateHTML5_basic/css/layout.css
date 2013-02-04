@@ -1,0 +1,37 @@
+body {
+	margin: auto;
+	background-color:#e3e3e3;
+	width: 80%;
+}
+
+nav {
+	height: 100px;
+}
+
+nav li {
+	float: left;
+	margin-right: 5%;
+}
+
+section {
+	float: left;
+	width: 70%;
+}
+
+aside {
+	float: right;
+	width:29%;
+}
+
+nav, section, aside, footer {
+	display: block;
+}
+
+footer {
+	clear: both;
+}
+
+
+nav, section, aside, footer, article {
+	border: solid 1px #7a7a7a;
+}
